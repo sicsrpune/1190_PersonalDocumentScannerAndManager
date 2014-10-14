@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Pdocs</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="search_title">Search Me</string>
+    <string name="about_me">About Me</string>
+    <string name="login_username">Username</string>
+    <string name="login_password">Password</string>
+    <string name="register_email">E-mail</string>
+    <string name="login_submit">Login</string>
+    <string name="back">Go Back</string>
+    <string name="register_submit">Register</string>
+    <string name="register">Not a member?</string>
+    <string name="logo">Pdocs</string>
+    <string name="Addnewdoc">Add New Document</string>
+    <string name="Editdoc">Edit Document</string>
+    <string name="Viewdoc">View/Edit Document</string>
+    <string name="Scandoc">Take A Scan</string>
+    <string name="Enhancedoc">Enhance My Scans</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="notfound">No Documents found.</string>
+    <string name="docid">ID</string>
+    <string name="docname">Name of the document</string>
+    <string name="docdesc">Description</string>
+    <string name="docdue">Due on: DD-MM-YYYY</string>
+    <string name="docreminder">Reminder</string>
+    <string name="docthumbnail">Document Thumbnail</string>
+    <string name="doctag">Tags</string>
+    <string name="doccategory">Select category</string>
+    <string name="docsubmit">Submit</string>
+    <string name="docdelete">Delete</string>
+    <string name="title_activity_list_documents">My Documents</string>
+    <string name="title_activity_document_details_">Document Detail</string>
+
+    <string-array name="categories">
+        <item>Personal</item>
+        <item>Bills</item>
+        <item>Property</item>
+        <item>Government</item>
+        <item>Medical</item>
+    </string-array>
+
+    <color name="blue">#0000FF</color>
+    <color name="lightorange">#FFBB33</color>
+    <color name="darkorange">#FF8800</color>
+    <color name="delete">#FF4444</color>
+
+    <string name="title_activity_tp">Tp</string>
+    <string name="title_activity_about">About</string>
+
+</resources>

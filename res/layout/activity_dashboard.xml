@@ -1,0 +1,131 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TableRow
+        android:id="@+id/dashboard_tr1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/dashboard_imageNewDoc"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_action_new"
+            android:contentDescription="@string/Addnewdoc"
+             />
+
+        <TextView
+            android:id="@+id/dashboard_textviewNewDoc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="30dp"
+            android:text="@string/Addnewdoc"
+            android:textColor="@color/darkorange"
+            android:textSize="20sp"
+            android:clickable="true"
+             />
+        
+    </TableRow>
+<!--    <TableRow
+        android:id="@+id/dashboard_tr2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/dashboard_imageEditDoc"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_action_edit"
+            android:contentDescription="@string/Editdoc"
+             />
+
+        <TextView
+            android:id="@+id/dashboard_textEditDoc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="30dp"
+            android:text="@string/Editdoc"
+            android:textColor="@color/darkorange"
+            android:textSize="20sp"
+             />
+        
+    </TableRow>
+    -->  
+     <TableRow
+        android:id="@+id/dashboard_tr3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/dashboard_imageViewDoc"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_action_read"
+            android:contentDescription="@string/Viewdoc"
+             />
+
+        <TextView
+            android:id="@+id/dashboard_textViewDoc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="30dp"
+            android:text="@string/Viewdoc"
+            android:textColor="@color/darkorange"
+            android:textSize="20sp"
+            android:clickable="true"
+             />
+        
+    </TableRow>
+ <!--    <TableRow
+        android:id="@+id/dashboard_tr4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/dashboard_imageScanDoc"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_action_camera"
+            android:contentDescription="@string/Scandoc"
+             />
+
+        <TextView
+            android:id="@+id/dashboard_textScanDoc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="30dp"
+            android:text="@string/Scandoc"
+            android:textColor="@color/darkorange"
+            android:textSize="20sp"
+             />
+        
+    </TableRow>
+    --> 
+   <!--    <TableRow
+        android:id="@+id/dashboard_tr5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/dashboard_imageEnhanceDoc"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_action_crop"
+            android:contentDescription="@string/Enhancedoc"
+             />
+
+        <TextView
+            android:id="@+id/dashboard_textEnhanceDoc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="30dp"
+            android:text="@string/Enhancedoc"
+            android:textColor="@color/darkorange"
+            android:textSize="20sp"
+             />
+        
+    </TableRow>
+      -->
+
+</TableLayout>

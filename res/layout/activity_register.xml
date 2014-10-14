@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+     >
+    
+     <EditText
+            android:id="@+id/register_editTextUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/login_username"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:maxLength="10"
+            android:inputType="text" >
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/register_editTextEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/register_email"
+            android:layout_marginBottom="20dp"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/register_editTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:maxLength="10"
+            android:hint="@string/login_password"
+            android:layout_marginBottom="20dp"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/register_buttonSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="@string/register_submit"
+             android:background="@color/lightorange" 
+            android:drawableRight="@drawable/ic_action_next_item"
+            />
+
+        <Button
+            android:id="@+id/register_buttonBack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@color/lightorange" 
+            android:text="@string/back"
+            android:drawableLeft="@drawable/ic_action_previous_item"
+         />
+</LinearLayout>

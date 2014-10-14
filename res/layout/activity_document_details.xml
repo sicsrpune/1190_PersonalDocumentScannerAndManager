@@ -1,0 +1,124 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    
+        <EditText
+            android:id="@+id/editTextDocumentId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/docid"
+            android:inputType="number"
+            android:nextFocusDown="@+id/editTextDocumentName"
+           
+            android:ems="10" >
+            <requestFocus />
+        </EditText>
+
+ <LinearLayout
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+            android:orientation="horizontal"
+        >
+        <EditText
+            android:id="@+id/editTextDocumentName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/docname"
+            android:inputType="textCapSentences"
+            android:nextFocusDown="@+id/editTextDocumentDescription"
+             />
+
+        <ImageButton
+            android:id="@+id/imageButton_scan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/lightorange"
+            android:contentDescription="@string/docname"
+            android:src="@drawable/ic_action_camera" />
+        
+</LinearLayout>
+
+        <EditText
+            android:id="@+id/editTextDocumentDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/docdesc"
+            android:inputType="textMultiLine" 
+            android:nextFocusDown="@+id/editTextDocumentDue"
+            android:ems="10" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+            android:orientation="horizontal"
+        >
+            <EditText
+            android:id="@+id/editTextDocumentDue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/docdue"
+            android:inputType="date" 
+            
+            android:nextFocusDown="@+id/checkBoxReminder"
+            android:ems="10" />
+        
+        <CheckBox
+            android:id="@+id/checkBoxReminder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/ic_action_alarms" 
+            
+            />
+            
+        </LinearLayout>
+		
+
+        
+       <!--  <ImageView
+            android:id="@+id/imageViewDocumentImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher"
+            android:contentDescription="@string/docthumbnail"
+         /> -->
+
+        <Spinner
+            android:id="@+id/spinnerCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:hint="@string/doccategory"
+            android:text="@string/doccategory"/>
+
+<!--      <EditText
+            android:id="@+id/editTextTag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/doctag"
+            android:ems="10" /> -->
+
+        <Button
+            android:id="@+id/document_submit"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:text="@string/docsubmit"
+            android:background="@color/darkorange"
+            android:layout_gravity="center"
+            android:drawableRight="@drawable/ic_action_paste"
+            
+             />
+
+        <Button
+            android:id="@+id/document_delete"
+             android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:text="@string/docdelete"
+            android:background="@color/delete"
+            android:layout_gravity="center"
+            android:drawableRight="@drawable/ic_action_paste" />
+    
+</LinearLayout>
